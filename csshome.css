@@ -1,0 +1,52 @@
+html {
+  background-color: black;
+  font-size: 14px;
+  font-family: fantasy;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  box-shadow: 0 0 10px -2px purple;
+  background-color: aqua;
+  color: purple;
+  align-items: center;
+  height: 50px;
+  padding: 7px;
+  justify-content: space-around;
+}
+a {
+  color: purple;
+  font-size: x-large;
+  margin: 10px;
+  text-decoration: none;
+}
+.current {
+  border: 3px dashed black;
+}
+img {
+  max-height: 300px;
+  max-width: 300px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  color: purple;
+  align-items: center;
+  font-size: large;
+}
+footer {
+  display: flex;
+  box-shadow: 0 0 10px -2px purple;
+  background-color: aqua;
+  color: purple;
+  align-items: center;
+  height: 50px;
+  padding: 7px;
+  width: 100%;
+  justify-content: space-around;
+}
