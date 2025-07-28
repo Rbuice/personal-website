@@ -19,25 +19,14 @@ header {
   padding: 7px;
   justify-content: space-around;
 }
+.current {
+  border: 3px dashed black;
+}
 a {
   color: purple;
   font-size: x-large;
   margin: 10px;
   text-decoration: none;
-}
-.current {
-  border: 3px dashed black;
-}
-img {
-  max-height: 300px;
-  max-width: 300px;
-}
-main {
-  display: flex;
-  flex-direction: column;
-  color: purple;
-  align-items: center;
-  font-size: large;
 }
 footer {
   display: flex;
@@ -49,8 +38,20 @@ footer {
   padding: 7px;
   width: 100%;
   justify-content: space-around;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
+}
+main {
+  color: purple;
+  display: flex;
+  flex-direction: column;
+}
+
+.Titles {
+  border-top: 10px dashed;
+  border-color: rgb(197, 212, 28);
+}
+img {
+  max-width: 200px;
+}
+p {
+  font-size: 25px;
 }
